@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cabeçalho */
+
+.cabecalho__logo {
+    width: auto;
+    height: 117px;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__logo img {
+    width: 324px;
+    height: 84px;
+}
+
+.cabecalho__links {
+    padding: 10px;
+    background: #FFA000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 3px 30px 14px -27px rgba(0, 0, 0, 0.31) inset;
+    -webkit-box-shadow: 3px 30px 14px -27px rgba(0, 0, 0, 0.31) inset;
+    -moz-box-shadow: 3px 30px 14px -27px rgba(0, 0, 0, 0.31) inset;
+}
+
+.cabecalho__links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.cabecalho__links a:hover {
+    color: darkgreen;
+    transition: all .5s;
+}
+
+/* Main - Parte Principal */
+
+.receitas-container {
+    margin-block: 10vh;
+}
+
+.receitas-container h2 {
+    color: #FFA000;
+    margin: 2.5rem;
+    margin-left: 4rem;
+    font-size: clamp(1.75rem, 3vw, 4rem);
+}
+
+.receitas-geral {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.receitas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.receitas p {
+    font-size: larger;
+}
+
+.receitas button {
+    width: 35%;
+    background-color: #176902;
+    border: none;
+    padding: 5px;
+}
+
+.receitas button:hover {
+    background: #FFA000;
+    transition: all .5s;
+}
+
+.receitas a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+/* Footer - Rodapé */
+
+.rodapé {
+    width: 100%;
+    padding: 12px;
+    background: #FFC107;
+    ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.rodapé img {
+    width: 324px;
+    height: 84px;
+    margin: 10px;
+}
