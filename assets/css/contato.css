@@ -5,11 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    width: 1440px;
-    max-width: 100%;
-}
-
 /* cabeçalho */
 
 .cabecalho__links a:hover {

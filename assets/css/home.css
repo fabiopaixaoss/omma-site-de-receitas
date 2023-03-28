@@ -7,11 +7,6 @@
 
 /* cabeçalho */
 
-main {
-    width: 1440px;
-    max-width: 100%;
-}
-
 .cabecalho__links a:hover {
     color: darkgreen;
     transition: all .5s;
